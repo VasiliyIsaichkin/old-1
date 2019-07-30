@@ -1,0 +1,52 @@
+.nav>li>a>img {
+    max-width: none;
+    padding-right: 8px;
+}
+.dropdown-menu LI > A > I {
+    padding-right: 8px;
+}
+.dropdown-menu LI > A > I {
+    padding-right: 4px;
+}
+.header .navbar-inner {
+    height: 44px !important;
+}
+.sidebar-toggler {
+    margin-bottom: 15px;
+}
+.page-sidebar > ul > li a i {
+    padding-right: 4px;
+}
+.form {
+    margin: 0 0 20px;
+    padding-top: 5px !important;
+} 
+.btn {
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.controls P {
+    margin-top: 7px;
+    font-size: 1.1em;
+}
+.loading-modal {
+    display:    none;
+    position:   fixed;
+    z-index:    2147483640;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 61, 61, 61, .5 ) 
+        url('/img/ajax-loader.gif') 
+        50% 50% 
+        no-repeat;
+}
+
+body.loading {
+    overflow: hidden;   
+}
+
+body.loading .loading-modal {
+    display: block;
+}
